@@ -1,26 +1,52 @@
-# � GUÍA COMPLETA TESTGORILLA - WHITESTACK
+# 📖 GUÍA COMPLETA TESTGORILLA - WHITESTACK
 
 > **Índice Maestro - Acceso Rápido a Todos los Temas**  
 > *Usa Ctrl+F para buscar términos específicos*
 
 ---
 
-[[_TOC_]]
+## 📑 ÍNDICE DE CONTENIDOS
+
+1. [🐧 Linux Avanzado - Guía de Estudio](#linux-avanzado---guía-de-estudio)
+2. [☸️ Kubernetes - Guía Completa](#kubernetes---guía-completa)
+3. [🐳 Docker y Containerd - Guía Completa](#docker-y-containerd---guía-completa)
+4. [🌐 Networking Avanzado - Guía Completa](#networking-avanzado---guía-completa)
+5. [🤖 Ansible - Guía de Automatización](#ansible---guía-de-automatización)
+6. [🏗️ Terraform - Infrastructure as Code](#terraform---infrastructure-as-code)
+7. [🔧 Git Avanzado - Control de Versiones](#git-avanzado---control-de-versiones)
+8. [☁️ OpenStack - Guía Básica](#openstack---guía-básica)
+9. [📊 Sistemas de Monitoreo - Guía Básica](#sistemas-de-monitoreo---guía-básica)
+10. [📊 Prometheus - Guía Completa](#prometheus---guía-completa)
+11. [🐍 Python para DevOps/SRE - Guía Completa](#python-para-devopssre---guía-completa)
+12. [🚀 CI/CD y GitOps - Guía Práctica](#cicd-y-gitops---guía-práctica)
 
 ---
 
-# 🐧 Linux Avanzado - Guía de Estudio
+## 🔍 BÚSQUEDA RÁPIDA
+
+**Comandos más usados:**
+- Linux: `find`, `grep`, `systemctl`, `awk`, `sed`, `iptables`, `ip`, `netstat`
+- Kubernetes: `kubectl get/describe/logs/exec/apply/scale/rollout`
+- Docker: `docker run/ps/logs/exec/build/compose`
+- Prometheus: `rate()`, `irate()`, `increase()`, `sum()`, `avg()`
+- Git: `git commit/push/pull/merge/rebase/stash/cherry-pick`
+- Ansible: `ansible-playbook`, roles, playbooks
+- Terraform: `terraform init/plan/apply/destroy/state`
+
+---
+
+# Linux Avanzado - Guía de Estudio
 
 ## 📚 Índice
 1. [Comandos Básicos y Avanzados](#comandos-básicos-y-avanzados)
-2. [Gestión de Archivos y Sistemas](#gestión-de-archivos-y-sistemas)
-3. [Configuración de Red](#configuración-de-red)
-4. [Bash Scripting](#bash-scripting)
+2. [Gestión de Archivos y Sistemas](#2-gestión-de-archivos-y-sistemas)
+3. [Configuración de Red](#3-configuración-de-red)
+4. [Bash Scripting](#4-bash-scripting)
 5. [Ejercicios Prácticos](#ejercicios-prácticos)
 
 ---
 
-## 1. Comandos Básicos y Avanzados
+## Comandos Básicos y Avanzados
 
 ### 🔍 Navegación y Búsqueda
 
@@ -789,20 +815,20 @@ main "$@"
 
 ---
 
-# ☸️ Kubernetes - Guía Completa
+# Kubernetes - Guía Completa
 
 ## 📚 Índice
-1. [Conceptos Fundamentales](#conceptos-fundamentales)
-2. [Arquitectura de Kubernetes](#arquitectura-de-kubernetes)
-3. [Pods y Contenedores](#pods-y-contenedores)
-4. [Deployments y ReplicaSets](#deployments-y-replicasets)
-5. [Services y Networking](#services-y-networking)
-6. [Volumes y Storage](#volumes-y-storage)
-7. [ConfigMaps y Secrets](#configmaps-y-secrets)
-8. [Probes y Health Checks](#probes-y-health-checks)
-9. [Init Containers](#init-containers)
-10. [Debugging y Troubleshooting](#debugging-y-troubleshooting)
-11. [Helm](#helm)
+1. [Conceptos Fundamentales](#1-conceptos-fundamentales)
+2. [Arquitectura de Kubernetes](#2-arquitectura-de-kubernetes)
+3. [Pods y Contenedores](#3-pods-y-contenedores)
+4. [Deployments y ReplicaSets](#4-deployments-y-replicasets)
+5. [Services y Networking](#5-services-y-networking)
+6. [Volumes y Storage](#6-volumes-y-storage)
+7. [ConfigMaps y Secrets](#7-configmaps-y-secrets)
+8. [Probes y Health Checks](#8-probes-y-health-checks)
+9. [Init Containers](#9-init-containers)
+10. [Debugging y Troubleshooting](#10-debugging-y-troubleshooting)
+11. [Helm](#11-helm)
 12. [Ejercicios Prácticos](#ejercicios-prácticos)
 
 ---
@@ -1837,17 +1863,17 @@ spec:
 
 ---
 
-# 🐳 Docker y Containerd - Guía Completa
+# Docker y Containerd - Guía Completa
 
 ## 📚 Índice
-1. [Conceptos Fundamentales](#conceptos-fundamentales)
-2. [Ciclo de Vida de Contenedores](#ciclo-de-vida-de-contenedores)
-3. [Imágenes Docker](#imágenes-docker)
-4. [Volúmenes y Almacenamiento](#volúmenes-y-almacenamiento)
-5. [Redes Docker](#redes-docker)
-6. [Docker Compose](#docker-compose)
-7. [Containerd](#containerd)
-8. [Troubleshooting](#troubleshooting)
+1. [Conceptos Fundamentales](#1-conceptos-fundamentales)
+2. [Ciclo de Vida de Contenedores](#2-ciclo-de-vida-de-contenedores)
+3. [Imágenes Docker](#3-imágenes-docker)
+4. [Volúmenes y Almacenamiento](#4-volúmenes-y-almacenamiento)
+5. [Redes Docker](#5-redes-docker)
+6. [Docker Compose](#6-docker-compose)
+7. [Containerd](#7-containerd)
+8. [Troubleshooting](#7-troubleshooting)
 9. [Ejercicios Prácticos](#ejercicios-prácticos)
 
 ---
@@ -2621,16 +2647,16 @@ lsof -i :8080
 
 ---
 
-# 🌐 Networking Avanzado - Guía Completa
+# Networking Avanzado - Guía Completa
 
 ## 📚 Índice
-1. [Conceptos de Red](#conceptos-de-red)
-2. [Interfaces y Configuración](#interfaces-y-configuración)
-3. [VLANs](#vlans)
+1. [Conceptos de Red](#1-conceptos-de-red)
+2. [Interfaces y Configuración](#2-interfaces-y-configuración)
+3. [VLANs](#3-vlans)
 4. [Bonding/Link Aggregation](#bonding-link-aggregation)
-5. [Routing](#routing)
-6. [IPTables](#iptables)
-7. [Troubleshooting de Red](#troubleshooting-de-red)
+5. [Routing](#5-routing)
+6. [IPTables](#6-iptables)
+7. [Troubleshooting de Red](#7-troubleshooting-de-red)
 
 ---
 
@@ -3121,16 +3147,16 @@ nc -zv example.com 80      # Test de puerto
 
 ---
 
-# 🤖 Ansible - Guía de Automatización
+# Ansible - Guía de Automatización
 
 ## 📚 Índice
-1. [Conceptos Fundamentales](#conceptos-fundamentales)
-2. [Inventarios](#inventarios)
-3. [Playbooks](#playbooks)
+1. [Conceptos Fundamentales](#1-conceptos-fundamentales)
+2. [Inventarios](#2-inventarios)
+3. [Playbooks](#3-playbooks)
 4. [Roles](#roles)
-5. [Variables](#variables)
-6. [Módulos Importantes](#módulos-importantes)
-7. [Troubleshooting](#troubleshooting)
+5. [Variables](#5-variables)
+6. [Módulos Importantes](#6-módulos-importantes)
+7. [Troubleshooting](#7-troubleshooting)
 
 ---
 
@@ -3898,16 +3924,16 @@ ansible all -m setup -i inventory.ini  # Gather facts
 
 ---
 
-# 🏗️ Terraform - Infrastructure as Code
+# Terraform - Infrastructure as Code
 
 ## 📚 Índice
-1. [Conceptos Fundamentales](#conceptos-fundamentales)
-2. [Sintaxis HCL](#sintaxis-hcl)
-3. [Providers y Recursos](#providers-y-recursos)
-4. [Variables y Outputs](#variables-y-outputs)
-5. [State Management](#state-management)
-6. [Módulos](#módulos)
-7. [Troubleshooting](#troubleshooting)
+1. [Conceptos Fundamentales](#1-conceptos-fundamentales)
+2. [Sintaxis HCL](#2-sintaxis-hcl)
+3. [Providers y Recursos](#3-providers-y-recursos)
+4. [Variables y Outputs](#4-variables-y-outputs)
+5. [State Management](#5-state-management)
+6. [Módulos](#6-módulos)
+7. [Troubleshooting](#7-troubleshooting)
 
 ---
 
@@ -4629,16 +4655,16 @@ terraform destroy -target=aws_instance.web
 
 ---
 
-# 🔧 Git Avanzado - Control de Versiones
+# Git Avanzado - Control de Versiones
 
 ## 📚 Índice
-1. [Comandos Básicos Revisión](#comandos-básicos-revisión)
-2. [Branching Avanzado](#branching-avanzado)
-3. [Rebase](#rebase)
-4. [Cherry-pick](#cherry-pick)
-5. [Stash](#stash)
-6. [Reset y Revert](#reset-y-revert)
-7. [GitOps Workflows](#gitops-workflows)
+1. [Comandos Básicos Revisión](#1-comandos-básicos-revisión)
+2. [Branching Avanzado](#2-branching-avanzado)
+3. [Rebase](#3-rebase)
+4. [Cherry-pick](#4-cherry-pick)
+5. [Stash](#5-stash)
+6. [Reset y Revert](#6-reset-y-revert)
+7. [GitOps Workflows](#7-gitops-workflows)
 
 ---
 
@@ -5204,13 +5230,13 @@ secrets.yml
 
 ---
 
-# ☁️ OpenStack - Guía Básica
+# OpenStack - Guía Básica
 
 ## 📚 Índice
-1. [¿Qué es OpenStack?](#qué-es-openstack)
-2. [Arquitectura y Componentes](#arquitectura-y-componentes)
-3. [CLI Essentials](#cli-essentials)
-4. [Conceptos Clave](#conceptos-clave)
+1. [¿Qué es OpenStack?](#1-qué-es-openstack)
+2. [Arquitectura y Componentes](#2-arquitectura-y-componentes)
+3. [CLI Essentials](#3-cli-essentials)
+4. [Conceptos Clave](#4-conceptos-clave)
 
 ---
 
@@ -5521,14 +5547,14 @@ openstack quota set --ram 51200 <project>
 
 ---
 
-# 📊 Sistemas de Monitoreo - Guía Básica
+# Sistemas de Monitoreo - Guía Básica
 
 ## 📚 Índice
-1. [Grafana](#grafana)
-2. [Kibana](#kibana)
-3. [Prometheus](#prometheus)
-4. [Zabbix](#zabbix)
-5. [Nagios](#nagios)
+1. [Grafana](#1-grafana)
+2. [Kibana](#2-kibana)
+3. [Prometheus](#3-prometheus)
+4. [Zabbix](#4-zabbix)
+5. [Nagios](#5-nagios)
 
 ---
 
@@ -5777,7 +5803,7 @@ check_memory
 ---
 
 
-# 📊 Prometheus - Guía Completa
+# Prometheus - Guía Completa
 
 ## 🎯 ¿Qué es Prometheus?
 
@@ -6200,7 +6226,7 @@ sum(rate(http_requests_total[30d])) * 0.001
 
 ---
 
-# 🐍 Python para DevOps/SRE - Guía Completa
+# Python para DevOps/SRE - Guía Completa
 
 ## 🎯 ¿Por qué Python en DevOps?
 
@@ -7332,7 +7358,7 @@ pip install click           # CLI apps (alternativa a argparse)
 
 ---
 
-# 🚀 CI/CD y GitOps - Guía Práctica
+# CI/CD y GitOps - Guía Práctica
 
 ## 🎯 ¿Qué es CI/CD?
 
